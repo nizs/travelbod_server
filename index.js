@@ -30,13 +30,13 @@ async function run() {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
 
-        const tourCollection = client.db('travelBod').collection('tours');
-        const carouselimgCollection = client.db('travelBod').collection('carouselimg');
-        const carouseldimgCollection = client.db('travelBod').collection('carouseldimg');
-        const destinationCollection = client.db('travelBod').collection('destination');
-        const bookingCollection = client.db('travelBod').collection('bookings');
-        const carouselCollection = client.db('travelBod').collection('testimonials');
-        const blogCollection = client.db('travelBod').collection('blogs');
+        // const tourCollection = client.db('travelBod').collection('tours');
+        // const carouselimgCollection = client.db('travelBod').collection('carouselimg');
+        // const carouseldimgCollection = client.db('travelBod').collection('carouseldimg');
+        // const destinationCollection = client.db('travelBod').collection('destination');
+        // const bookingCollection = client.db('travelBod').collection('bookings');
+        // const carouselCollection = client.db('travelBod').collection('testimonials');
+        // const blogCollection = client.db('travelBod').collection('blogs');
 
         // API's that get data from DB ------------------------------
         app.get('/tours', async (req, res) => {
